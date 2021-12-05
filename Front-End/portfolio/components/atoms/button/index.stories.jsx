@@ -11,5 +11,5 @@ const Template = (args) => <Button {...args} />;
 export const SimpleButton = Template.bind({});
 
 SimpleButton.args = {
-    value: 'Simple Button.',
+    value: 'Simple Button',
 };
