@@ -1,7 +1,8 @@
 import { FunctionComponent } from 'react';
+import buttonStyle from '../../../styles/atoms/Button.module.css';
 
 const Button = ({ value }) => {
-    return <p>{value}</p>;
+    return <button className={buttonStyle.button}>{value}</button>;
 };
 
 export default Button;
