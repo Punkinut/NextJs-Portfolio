@@ -19,14 +19,7 @@ module.exports = {
             test: /\.scss$/,
             use: ['style-loader', 'css-loader', 'sass-loader'],
             include: path.resolve(__dirname, '../'),
-            // include: [
-            //     path.resolve(__dirname, '../styles'),
-            //     path.resolve(__dirname, '../components'),
-            // ],
         });
-
-        // Return the altered config
         return config;
     },
 };
-

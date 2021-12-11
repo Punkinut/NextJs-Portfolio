@@ -2,14 +2,14 @@ import React from 'react';
 import Button from '.';
 
 export default {
-    title: 'Atoms/Button',
+    title: 'Atoms/Buttons',
     component: Button,
 };
 
 const Template = (args) => <Button {...args} />;
 
-export const SimpleButton = Template.bind({});
+export const RedButton= Template.bind({});
 
-SimpleButton.args = {
+RedButton.args = {
     value: 'Simple Button',
 };
