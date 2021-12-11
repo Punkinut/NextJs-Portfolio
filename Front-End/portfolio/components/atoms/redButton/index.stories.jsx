@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from '.';
+import RedButton from '.';
 
 export default {
     title: 'Atoms/Buttons',
-    component: Button,
+    component: RedButton,
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <RedButton {...args} />;
 
-export const RedButton= Template.bind({});
+export const Button = Template.bind({});
 
-RedButton.args = {
+Button.args = {
     value: 'Simple Button',
 };
