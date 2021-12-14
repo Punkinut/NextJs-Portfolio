@@ -1,10 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Tom Doyle | My Portfolio</title>
         <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
