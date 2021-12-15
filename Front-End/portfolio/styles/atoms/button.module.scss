@@ -1,6 +1,16 @@
-$main-color: #de3a53;
+@import '../globals';
 
 .button {
-    background-color: $main-color !important;
+    background-color: $candy-red !important;
     color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    cursor: pointer;
+    transition: $transition;
+    &:hover {
+        background-color: $dark-gray !important;
+    }
 }

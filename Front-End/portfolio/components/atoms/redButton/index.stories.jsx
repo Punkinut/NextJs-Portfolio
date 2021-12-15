@@ -8,8 +8,8 @@ export default {
 
 const Template = (args) => <RedButton {...args} />;
 
-export const Button = Template.bind({});
+export const ButtonRed = Template.bind({});
 
-Button.args = {
+ButtonRed.args = {
     value: 'Simple Button',
 };
