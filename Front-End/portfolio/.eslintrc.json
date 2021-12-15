@@ -2,5 +2,9 @@
   "env": {
     "jest": true
 },
-  "extends": ["next/babel", "next/core-web-vitals"]
+  "extends": ["next/babel", "next/core-web-vitals"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+}
 }
